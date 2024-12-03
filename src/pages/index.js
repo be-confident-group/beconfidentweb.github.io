@@ -11,14 +11,14 @@ const IndexPage = () => {
     <main className="container md:h-screen flex justify-center items-center max-w-screen-xl">
       <div className="grid md:grid-cols-2 gap-20">
         <div className="flex flex-col justify-between">
-          <img src={logo} alt="Be Confident Group" className="w-40"/>
+          <img src={logo} alt="Be Confident Group" className="w-40 mb-12 md:mb-0"/>
 
           <div className="flex flex-col justify-center">
-            <div className="text-gray-700 text-2xl font-light mb-4">
+            <div className="text-gray-700 text-xl md:text-2xl font-light mb-4">
               Two great companies with a common vision:
             </div>
 
-            <div className="text-ccoms text-6xl font-bold">
+            <div className="text-ccoms text-5xl md:text-6xl font-bold mb-12 md:mb-0">
               Great things happen when people cycle
             </div>
           </div>

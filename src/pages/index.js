@@ -14,7 +14,7 @@ const IndexPage = () => {
           <img src={logo} alt="Be Confident Group" className="w-40 pb-24"/>
 
           <div className="flex flex-col justify-center">
-            <div className="text-gray-700 text-base text-2xl font-light mb-4">
+            <div className="text-gray-700 text-2xl font-light mb-4">
               Two great companies with a common vision:
             </div>
 

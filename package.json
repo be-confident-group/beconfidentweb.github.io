@@ -1,0 +1,31 @@
+{
+  "name": "be-confident-group",
+  "version": "1.0.0",
+  "private": true,
+  "description": "be-confident-group",
+  "author": "Simon Barnett",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  },
+  "dependencies": {
+    "gatsby": "^5.14.0",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "gatsby-plugin-postcss": "^6.14.0",
+    "gh-pages": "^6.2.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15"
+  }
+}

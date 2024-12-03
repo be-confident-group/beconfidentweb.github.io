@@ -10,8 +10,8 @@ const IndexPage = () => {
   return (
     <main className="container md:h-screen flex justify-center items-center max-w-screen-xl">
       <div className="grid md:grid-cols-2 gap-20">
-        <div>
-          <img src={logo} alt="Be Confident Group" className="w-40 pb-24"/>
+        <div className="flex flex-col justify-between">
+          <img src={logo} alt="Be Confident Group" className="w-40"/>
 
           <div className="flex flex-col justify-center">
             <div className="text-gray-700 text-2xl font-light mb-4">
@@ -21,6 +21,10 @@ const IndexPage = () => {
             <div className="text-ccoms text-6xl font-bold">
               Great things happen when people cycle
             </div>
+          </div>
+
+          <div className="text-sm">
+            For more information about the group contact <a href="mailto:david@beconfidentgroup.com" className="text-ccoms underline">david@beconfidentgroup.com</a>.
           </div>
         </div>
 
